@@ -116,9 +116,7 @@ body {
   letter-spacing: -0.01em;
 }
 
-.c-news__figcaptioncategorytitle,
 .c-news__figcaptioncategorytext,
-.c-news__figcaptionnewstitle,
 .c-news__figcaptionnewstext{
   color: var(--color-02);
 }
@@ -132,4 +130,15 @@ body {
 
 .c-news--square .c-news__figcaption{
   padding: 0 1.5rem 2rem 1.5rem;
+}
+
+
+
+/*C-NEWS--SERIES*/
+.c-news--series .c-news__figcaption{
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.c-news--series .c-news__figcaptioncategorytitle{
+  opacity: .8;
 }
