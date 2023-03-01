@@ -42,6 +42,7 @@ body {
   align-items: center;
   height: 1.8rem;
   border-radius: 2rem;
+  cursor: pointer;
 }
 
 
@@ -125,6 +126,10 @@ body {
 
 
 /*C-NEWS--MAIN*/
+.c-news.c-news--main{
+  padding: 1.2rem 0;
+}
+
 .c-news--main .c-news__figcaption{
   height: 45.95%;
   padding: 0 2.5rem 2.9rem 2.5rem;
@@ -174,3 +179,29 @@ body {
   font-size: 1.6rem;
   line-height: 2rem;
 }
+
+
+/*C-ADVERTISING*/
+.c-advertising{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-advertising__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c-advertising__linkimage{
+  display: flex;
+}
+
+
+/*C-ADVERTISING--RECTANGLE*/
+.wrapper.wrapper--c-advertising--rectangle{
+  padding: 1.2rem 2.8rem;
+}
+
